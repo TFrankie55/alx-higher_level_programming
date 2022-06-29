@@ -1,4 +1,4 @@
-#!usr/bin/python3
+#!/usr/bin/python3
 def uppercase(str):
     temp = ""
     for char in str:
