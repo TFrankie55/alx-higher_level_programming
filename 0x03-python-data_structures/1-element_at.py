@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
-"""a function that retrieves an element in a list like C"""
+""" a function that retrieves an element in a list like C"""
+
 
 def element_at(my_list, idx):
     my_list = [1, 2, 3, 4, 5]
