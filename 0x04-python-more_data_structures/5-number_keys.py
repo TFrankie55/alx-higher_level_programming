@@ -6,7 +6,7 @@ the number of keys in a dictionary"""
 
 def number_keys(a_dictionary):
     keys = 0
-    for keys in a dictionary.keys():
+    for key in a dictionary.keys():
         keys += 1
     return keys
 
