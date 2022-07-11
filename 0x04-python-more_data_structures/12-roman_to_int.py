@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python3i
 # 12-roman_to_int.py
 # Tosin Owoeye <towoeye50@gmail.com>
 
@@ -15,7 +15,7 @@ def roman_to_int(roman_string):
         if dic.get(roman_string[i], 0) == 0:
             return (0)
 
-        if (i != (len(roman_string) - 1)) and
+        if (i != (len(roman_string) - 1) and
                 dic[roman_string[i]] < dic[roman_string[i + 1]])
                 num += dic[roman_string[i]] * -1
 
