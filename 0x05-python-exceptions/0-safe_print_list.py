@@ -4,8 +4,8 @@ def safe_print_list(my_list=[], x=0):
         while True:
             try:
                 if index < 1:
-                print(my_list[index], end='')
-                index += 1
+                    print(my_list[index], end='')
+                    index += 1
             else:
                 print()
                 return index
