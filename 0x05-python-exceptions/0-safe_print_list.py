@@ -1,8 +1,14 @@
 #!/usr/bin/python3
 def safe_print_list(my_list=[], x=0):
-    try:
-        for x in my_list:
-            print("The value of x")
-    except IndexError:
-        if my_list is empty:
-            print("The list is empty")
+    index = 0:
+        while True:
+            try:
+                if index < 1:
+                print(my_list[index], end='')
+                index += 1
+            else:
+                print()
+                return index
+        except IndexError:
+            print()
+            return index
