@@ -9,4 +9,4 @@ class Square:
     Instantiation with size (no type/value verification)"""
 
     def __init__(self, size):
-        self.__self = size
+        self.__size = size
