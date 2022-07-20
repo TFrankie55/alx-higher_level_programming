@@ -8,9 +8,9 @@ class Square:
     """Private instance attribute: size
     Instantiation with optional size: def __init__(self, size=0):"""
 
-    def __init__(self, size=0)
+    def __init__(self, size=0):
         if type(size) is int:
-            if type(size < 0):
+            if size < 0:
                 raise ValueError("size must be >= 0")
             self.size = size
         else:
