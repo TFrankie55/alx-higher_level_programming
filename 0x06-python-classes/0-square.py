@@ -4,7 +4,5 @@
 
 
 class square:
-    if square == None
+    """Represents a square"""
     pass
-
-square()
