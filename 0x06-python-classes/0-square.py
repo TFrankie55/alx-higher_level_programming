@@ -4,4 +4,7 @@
 
 
 class square:
+    if square == None
     pass
+
+square()
