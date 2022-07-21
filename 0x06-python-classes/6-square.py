@@ -26,7 +26,7 @@ class Square:
         self.position = position
 
     def checker(self, items):
-    """method to check if the elements in a tuple
+        """method to check if the elements in a tuple
         conform with specific requirements"""
         status = False
         if (type(items) is tuple and len(items) == 2):
@@ -38,6 +38,7 @@ class Square:
                     status = False
                     break
         return status
+
     @property
     def size(self):
         return self.__size
@@ -63,7 +64,7 @@ class Square:
             raise TypeError('position must be a tuple of 2 positive integers')
 
     def area(self):
-    """Calculates area of the square and return the result"""
+        """Calculates area of the square and return the result"""
         return self.__size * self.__size
 
     def my_print(self):
