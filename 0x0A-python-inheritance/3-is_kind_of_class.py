@@ -1,4 +1,5 @@
 #!usr/bin/python3
+
 """checks Same class or Inherited from"""
 
 
