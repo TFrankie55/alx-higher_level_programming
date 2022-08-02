@@ -2,6 +2,6 @@
 """Implements geometry module"""
 
 
-class BaseGeometry:
+def class BaseGeometry:
     """an empty class"""
     pass
