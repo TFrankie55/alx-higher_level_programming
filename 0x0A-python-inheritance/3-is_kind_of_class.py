@@ -1,11 +1,11 @@
-#!usr/bin/python3
-
-"""checks Same class or Inherited from"""
+#!/usr/bin/python3
+"""Defines a class and inherited class-checking function."""
 
 
 def is_kind_of_class(obj, a_class):
-    """a function that returns True if the object is an
-    instance of, or if the object is an instance of a
-    class that inherited from, the specified class"""
-
-    return isinstance(obj, a_class) or isinstance(type(obj), a_class)
+    """Check if an object is an instance or
+    inherited instance of a class."""
+    
+    if isinstance(obj, a_class):
+        return True
+    return False
