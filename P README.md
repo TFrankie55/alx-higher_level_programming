@@ -1,7 +1,7 @@
 # Code
-## Install
-### Abuse
-#### Correct
+### Install
+## Abuse
+### Correct
 ~ Aright
-#### ``` ##Inbibe ``` 
+### ``` ##Inbibe ``` 
 * [set-up]
