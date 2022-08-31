@@ -5,3 +5,6 @@
 ~ Aright ~
 ### ``` ##Inbibe ``` 
 * [set-up]
+* Info 
+** Expt
+* * cmd
