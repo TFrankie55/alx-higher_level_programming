@@ -7,4 +7,4 @@
 * [set-up]
 * Info 
 ** Expt
-* * cmd
+* * * cmd
