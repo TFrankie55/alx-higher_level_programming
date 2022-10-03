@@ -1,6 +1,5 @@
 #!/usr/bin/node
 
 const myVar = 
-	document.querySelector("JavaScript is amazing");
-
+document.querySelector("JavaScript is amazing");
 console.log(myVar)
