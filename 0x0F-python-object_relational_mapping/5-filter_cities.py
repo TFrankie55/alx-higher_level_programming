@@ -8,6 +8,7 @@ Usage: ./5-filter_cities.py <mysql username> \
                             <database name> \
                             <state name searched>
 """
+
 import sys
 import MySQLdb
 
